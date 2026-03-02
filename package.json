@@ -1,0 +1,36 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Este sistema é um portal para programadores encontrarem vagas de trabalho",
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "homepage": "https://github.com/Eduardofontainha/Job-Finder#readme",
+  "bugs": {
+    "url": "https://github.com/Eduardofontainha/Job-Finder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardofontainha/Job-Finder.git"
+  },
+  "license": "MIT",
+  "author": "Eduardo Maia Fontainha <edungcs1@gmail.com>",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.6",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  }
+}
